@@ -1115,6 +1115,8 @@ Grid
 .core-nav .nav-container {
 	margin-right: auto;
 	margin-left: auto;
+	padding-top:2vh;
+	padding-bottom:2vh;
 }
 
 @media (min-width: 768px) {

@@ -32,7 +32,7 @@ $(document).ready(function () {
 		nav: false,
 		autoplay: true,
 		loop: true,
-		autoplayTimeout: 8000,
+		autoplayTimeout: 3500,
 		autoplayHoverPause: true
 	});
 
