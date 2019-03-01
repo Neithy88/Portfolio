@@ -53,9 +53,9 @@ body::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(92, 90, 90, 0);
 }
  
-body::-moz-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
   background-color: #ad67ea;
-  outline: 20px solid #ad67ea ;
+  outline: 20px solid #ad67ea;
   border-radius: 10px;
 }
 
@@ -253,14 +253,14 @@ nav.scrolled .menu li a:active {
 }
 
 .slider-area .slide-bg-1 {
-	background-image: url("../img/background1.png");
+	background-image: url("../img/background1.svg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .slider-area .slide-bg-2 {
-	background-image: url("../img/programming.png");
+	background-image: url("../img/programming.svg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -358,6 +358,7 @@ nav.scrolled .menu li a:active {
 
 #about .about-img {
 	position: relative;
+	
 }
 
 #about .about-img img {
@@ -368,7 +369,7 @@ nav.scrolled .menu li a:active {
 }
 
 #about .about-content {
-	padding: 90px 20px 0 20px;
+	padding: 60px 20px 0 20px;
 	text-align: left;
 }
 

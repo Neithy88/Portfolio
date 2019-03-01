@@ -3135,3 +3135,16 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   -webkit-animation-name: zoomOutUp;
   animation-name: zoomOutUp;
 }
+
+/* my animation Alexandra Moullet for programming.svg*/
+
+@keyframes hideshow{
+  0% {opacity: 1 ;}
+  15% {opacity: 1 ;}
+  20% {opacity: 0 ;}
+  100% {opacity: 0 ;}
+  }
+
+#questions{
+    animation: hideshow 10s ease infinite;
+    }
